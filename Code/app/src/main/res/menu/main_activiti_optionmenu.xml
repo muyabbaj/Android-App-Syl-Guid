@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/feedbackId"
+        android:orderInCategory="100"
+        android:title="Feedback"
+        app:showAsAction="never" />
+    <item
+    android:id="@+id/about_developerId"
+    android:orderInCategory="100"
+    android:title="About us"
+    app:showAsAction="never" />
+    <item
+    android:id="@+id/shareId"
+    android:orderInCategory="100"
+    android:title="Share"
+    android:icon="@drawable/ic_menu_share"
+    app:showAsAction="always" />
+    <item
+        android:id="@+id/mapId"
+        android:orderInCategory="100"
+        android:title="Google Map"
+        android:icon="@drawable/googlemap"
+        app:showAsAction="always" />
+
+</menu>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgraoun_gradient5"
+    android:orientation="vertical"
+    android:weightSum="3"
+    tools:context=".District">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="15dp"
+        android:layout_weight="1"
+        android:background="@drawable/backgraoun_gradient4"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="10dp"
+        >
+        <android.support.v7.widget.CardView
+            android:id="@+id/sylhet_DivisionId"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:clickable="true">
+
+            <TextView
+                android:layout_width="344dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:background="@drawable/backgraoun_gradient5"
+                android:text="সিলেটের ইতিহাস"
+                android:textColor="#ddf127"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="15dp"
+        android:layout_weight="1"
+        android:background="@drawable/backgraoun_gradient4"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        >
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/sylhet_allDistricId"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:clickable="true">
+
+            <TextView
+                android:layout_width="344dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/backgraoun_gradient5"
+                android:padding="5dp"
+                android:text="সিলেট বিভাগের জেলা সমূহ"
+               android:gravity="center"
+                android:textColor="#eaff3b"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="15dp"
+        android:layout_weight="1"
+        android:background="@drawable/backgraoun_gradient4"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        >
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/popularplacesId"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:clickable="true">
+            <TextView
+                android:layout_width="344dp"
+                android:layout_height="match_parent"
+                android:text="উল্লেখযোগ্য দর্শনীয় স্থান সমূহ"
+                android:textColor="#f7cce90c"
+                android:gravity="center"
+                android:background="@drawable/backgraoun_gradient5"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</LinearLayout>

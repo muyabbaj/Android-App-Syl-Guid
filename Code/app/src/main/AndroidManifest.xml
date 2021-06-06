@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.muyabbaj.myproject">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logos"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logos"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Splash_ScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="Travel Info"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FeedbackActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".AllTravelPlaceActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".District"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".SylhetDistrictActivity"
+            android:parentActivityName=".District" />
+        <activity
+            android:name=".SunamgonjActivity"
+            android:parentActivityName=".District" />
+        <activity
+            android:name=".HabigonjActivity"
+            android:parentActivityName=".District" />
+        <activity
+            android:name=".MoulvibazarActivity"
+            android:parentActivityName=".District" />
+        <activity
+            android:name=".SatchariActivity"
+            android:parentActivityName=".HabigonjActivity" />
+        <activity
+            android:name=".Remakaleggha_activity"
+            android:parentActivityName=".HabigonjActivity" />
+        <activity
+            android:name=".Shangkor_pasha_mosjidActivity"
+            android:parentActivityName=".HabigonjActivity" />
+        <activity
+            android:name=".Dara_gutiActivity"
+            android:parentActivityName=".HabigonjActivity" />
+        <activity
+            android:name=".Madhokudo_Activity"
+            android:parentActivityName=".MoulvibazarActivity" />
+        <activity
+            android:name=".HakalukiActivity"
+            android:parentActivityName=".MoulvibazarActivity" />
+        <activity
+            android:name=".KhujarShaActivity"
+            android:parentActivityName=".MoulvibazarActivity" />
+        <activity
+            android:name=".HamhamActivity"
+            android:parentActivityName=".MoulvibazarActivity" />
+        <activity
+            android:name=".Hail_haworActivity"
+            android:parentActivityName=".MoulvibazarActivity" />
+        <activity
+            android:name=".Srimongol_teagardenActivity"
+            android:parentActivityName=".MoulvibazarActivity" />
+        <activity
+            android:name=".Shah_Jalal_R_Activity"
+            android:parentActivityName=".SylhetDistrictActivity" />
+        <activity
+            android:name=".Shah_Poran_R_Activity"
+            android:parentActivityName=".SylhetDistrictActivity" />
+        <activity
+            android:name=".JaflongActivity"
+            android:parentActivityName=".SylhetDistrictActivity" />
+        <activity
+            android:name=".Lalakhal_Activity"
+            android:parentActivityName=".SylhetDistrictActivity" />
+        <activity
+            android:name=".MalnichoraAtivity"
+            android:parentActivityName=".SylhetDistrictActivity" />
+        <activity
+            android:name=".TangurerHaworActivity"
+            android:parentActivityName=".SunamgonjActivity" />
+        <activity
+            android:name=".HasonRajaActivity"
+            android:parentActivityName=".SunamgonjActivity" />
+        <activity
+            android:name=".BashTolaActivity"
+            android:parentActivityName=".SunamgonjActivity" />
+        <activity
+            android:name=".LaurerGorActivity"
+            android:parentActivityName=".SunamgonjActivity" />
+        <activity
+            android:name=".TekergatActivity"
+            android:parentActivityName=".SunamgonjActivity" />
+        <activity
+            android:name=".Popular_Travel_PlaceActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".DetailsSylhet"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".DeveloperActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Gourang_JomidarBari_Activity"
+            android:parentActivityName=".SunamgonjActivity" />
+        <activity
+            android:name=".KomlaRanirDighi_Activity"
+            android:parentActivityName=".MoulvibazarActivity" />
+        <activity
+            android:name=".OsmaniPark_Activity"
+            android:parentActivityName=".SylhetDistrictActivity" />
+        <activity
+            android:name=".Lovachora_Activity"
+            android:parentActivityName=".SylhetDistrictActivity" />
+        <activity
+            android:name=".PailGawJomidarBari_Activity"
+            android:parentActivityName=".SunamgonjActivity" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".GoogleMaps_Activity"
+            android:label="@string/title_activity_google_maps_" />
+    </application>
+
+</manifest>
